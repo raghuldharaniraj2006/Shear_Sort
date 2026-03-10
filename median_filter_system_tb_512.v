@@ -50,7 +50,7 @@ module tb_shear_sort_512;
         file_output = $fopen("result_girl_512.hex", "w");
 
         if (file_input == 0) begin
-            $display("Error: camera_man_512.hex not found!");
+            $display("Error: .hex not found!");
             $finish;
         end
 
