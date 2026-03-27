@@ -10,7 +10,7 @@ The project explores the hardware trade-offs between **3x3** and **4x4** kernel 
 ## Filter Architecture
 The following diagram illustrates the data flow of the Median Filter, featuring the transformation from a noisy input stream to a cleaned output via the Shear Sort sorting network.
 
-(./images/3x3_sliding_window.png)
+![3x3 Sliding Window Architecture](./images/3x3_sliding_window.png)
 
 
 
