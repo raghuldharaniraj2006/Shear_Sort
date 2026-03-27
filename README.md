@@ -10,7 +10,8 @@ The project explores the hardware trade-offs between **3x3** and **4x4** kernel 
 ## Filter Architecture
 The following diagram illustrates the data flow of the Median Filter, featuring the transformation from a noisy input stream to a cleaned output via the Shear Sort sorting network.
 
-![3x3 Sliding Window Architecture]("images\3x3 sliding window.png")
+(./images/3x3_sliding_window.png)
+
 
 
 
@@ -61,18 +62,18 @@ The hardware was validated using the standard **Lena** and **Cameraman** test im
 Below are the comparisons of the original noisy stimulus vs. the hardware-filtered output for different kernels.
 
 ### 3x3 Shear Sort Result (Lena)
-![Lena Filtered Result](./images/girl_filtered(3x3).jpg)
+![Lena Filtered Result](./images/girl_filtered(3x3).png)
 
 
 ### 3x3 Shear Sort Result (Cameraman)
-![Cameraman 4x4 Result](./images/camera_man_512_comp(3x3).jpg)
+![Cameraman 4x4 Result](./images/camera_man_512_comp(3x3).png)
 
 
 ### 4x4 Shear Sort Result (Lena)
-![Lena Filtered Result](./images/girl_filtered_4x4.jpg)
+![Lena Filtered Result](./images/girl_filtered_4x4.png)
 
 ### 4x4 Shear Sort Result (Cameraman)
-![Cameraman 4x4 Result](./images/camera_man_512_comp(4x4).jpg)
+![Cameraman 4x4 Result](./images/camera_man_512_comp(4x4).png)
 
 ---
 
